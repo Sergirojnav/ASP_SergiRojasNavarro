@@ -1,0 +1,68 @@
+*{
+    border-radius: 7px;
+}
+body{
+    background-color: hsl(160, 66%, 88%);
+}
+#cuarta,
+#tercera{
+    background-color:lightsteelblue;
+    padding: 15px;
+    margin: 15px;
+    display: flexbox;
+}
+
+#primera,
+#segunda{
+    background-color: beige;
+    padding: 15px;
+    margin: 15px;
+    
+
+}
+#primero,
+#ultimo{
+    background-color: beige;
+    padding: 15px;
+    margin: 15px;
+    display: flexbox;
+}
+#footer,
+#titulo{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#textomensaje,
+#cuarta,
+#tercera,
+#segunda,
+#primera{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#comprobar2,
+#comprobar{
+    padding: 15px;
+    margin: 15px;
+    display: flexbox;
+    text-align: center;
+
+}
+#mensaje2,
+#mensaje{
+    background-color: greenyellow;
+    margin-left: 50em;
+    margin-right: 50em;
+    text-align: center;
+}
+#error2,
+#error{
+    background-color: brown;
+    margin-left: 50em;
+    margin-right: 50em;
+    text-align: center;
+}
+#imagen{
+    height: 150px;
+    text-align: center;
+}

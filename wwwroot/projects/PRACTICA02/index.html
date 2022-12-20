@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-widith, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/script.js"></script>
+
+        <title>Concurso de preguntas</title>
+        
+    </head>
+    <body>
+        <div id="primero">
+            <h1 id="titulo"> CONCURSO DE PREGUNTAS</h1>
+        </div>
+
+        <div id="primera">
+            <p>¿Cuál es el río más largo del mundo?</p>
+            <input id="nilo" type="radio" name="pregunta1" >
+            <label for="nilo">El rio Nilo</label>
+
+            <input id="amazonas" type="radio" name="pregunta1" >
+            <label for="amazonas">El Amazonas</label><br>
+
+            <input id="danubio" type="radio" name="pregunta1">
+            <label for="danubio">El Danubio</label>
+
+            <input id="besos" type="radio" name="pregunta1">
+            <label for="besos">El rio Besòs</label><br>
+        </div>
+
+        <div id="segunda">
+            <p>¿Cuál es el océano más grande?</p>
+            <input id="pacifico" type="radio" name="pregunta2" >
+            <label for="pacifico">El Océano Pacífico</label>
+
+            <input id="atlantico" type="radio" name="pregunta2" >
+            <label for="atlantico">El Océano Atlántico</label><br>
+
+            <input id="indico" type="radio" name="pregunta2">
+            <label for="indico">El Océano Índico</label>
+
+            <input id="artico" type="radio" name="pregunta2">
+            <label for="artico">El Océano Ártico</label><br>
+        </div>
+
+        <div id="mensaje" style="display:none";>
+            <p id="textomensaje">Respuestas correctas, has pasado a la siguiente ronda</p>
+            <img id=imagen src="imagen/Captura de pantalla 2022-09-30 161445.png">
+        </div>
+
+        <div id="error" style="display:none";>
+            <p id="textomensaje">Respuesta/s Incorrectas, vuelve a intentarlo</p>
+            <img id=imagen src="imagen/Cristiano-Ronaldo-PNG-Picture.png">
+        </div>
+
+        <div id="tercera" style="display:none";>
+            <p>¿Cuál es tercer planeta en el sistema solar?</p>
+            <input id="venus" type="radio" name="pregunta3" >
+            <label for="venus">El planeta Venus</label>
+
+            <input id="neptuno" type="radio" name="pregunta3" >
+            <label for="neptuno">El planeta Neptuno</label><br>
+
+            <input id="mercurio" type="radio" name="pregunta3">
+            <label for="mercurio">El planeta Mercurio</label>
+
+            <input id="tierra" type="radio" name="pregunta3">
+            <label for="tierra">El planeta Tierra</label><br>
+        </div>
+
+        <div id="cuarta" style="display:none";>
+            <p>¿De qué país es el futbolista Zlatan Ibrahimović?</p>
+            <input id="otro" type="radio" name="pregunta4" >
+            <label for="otro">Es de otro planeta</label>
+
+            <input id="italia" type="radio" name="pregunta4" >
+            <label for="italia">Italia</label><br>
+
+            <input id="suecia" type="radio" name="pregunta4">
+            <label for="suecia">Suecia</label>
+
+            <input id="noruega" type="radio" name="pregunta4">
+            <label for="noruega">Noruega</label><br>
+        </div>
+
+        <div id="comprobar">
+            <form method="get" onclick="primeraRonda()">
+                <input type="button" value="Comprobar">
+            </form>
+        </div>
+
+        <div id="comprobar2" style="display:none";>
+            <form method="get" onclick="segundaRonda()">
+                <input type="button" value="Comprobar">
+            </form>
+        </div>
+
+        <div id="mensaje2" style="display:none";>
+            <p id="textomensaje">¡Felicidades has superado el reto!</p>
+            <img id=imagen src="imagen/Messi.png">
+        </div>
+
+        <div id="error2" style="display:none";>
+            <p id="textomensaje">Respuesta/s Incorrectas, no has superado el reto :(</p>
+            <img id=imagen src="imagen/messisad.png">
+        </div>
+
+
+        <div id="ultimo">
+            <h1 id="footer">Autor: Sergi Rojas Navarro</h1>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-widith, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/script.js"></script>
+
+        <title>Document</title>
+        
+    </head>
+
+    <body>
+        <div>
+            <h1 id="titulo"> FUNCIONES FACILONAS</h1>
+   
+        </div>
+            <p id="titulosfunciones">COMPARADOR DE TEXTOS</p>
+            <input type="text" id="lname" name="lname" onkeyup="comparartextos()">
+            <b id="igual" >=</b>
+            <input type="text" id="fname" name="fname" onkeyup="comparartextos()">
+
+            <p>CONTAR HASTA 30 LETRAS</p>
+            
+            <textarea id="texto" onkeyup="contarCaracteres(this)" ></textarea>
+            <b id="numeroChar">0 letras</b>
+
+            <p>RAIZ CUADRADA</p>
+
+            <input id="pedirnum" onkeyup="raizCuadrada()">
+            <p>=</p>
+            <input id="result" onchange="raizCuadrada()"disabled> 
+
+            <p>CONCATENA TEXTOS</p>
+            <p>
+            <input id="textB"onkeyup="concatenarTexto()">
+            +
+            <input id="textC" onkeyup="concatenarTexto()">=
+            <input id="resultado" onchange="concatenarTexto()"disabled></p>
+
+            <p>CAMBIO DE COLOR</p>
+
+            <input id="verde" type="radio" name= "color" onchange="cambioColor()" >
+            <label for="verde">Verde</label><br>
+           
+            <input id="azul" type="radio" name= "color" onchange="cambioColor()">
+            <label for="azul">Azul</label><br>
+        
+            <input id="rojo" type="radio" name= "color" onchange="cambioColor()">
+            <label for="rojo">Rojo</label><br>
+
+            <p id="cambioColor">ESTE TEXTO CAMBIA DE COLOR</p>
+         
+            <p>CAMBIO DE TAMAÑO</p>
+
+            <img id=imagen src="Imagen/500.jpg">
+            <br>
+            <b>alto:</b>
+            <input id="alto" onkeyup="cambioTamaño()">
+            <b>Ancho:</b>
+            <input id="anchura" onkeyup="cambioTamaño()">
+
+
+            <div>
+                <h1 id="titulo"> FOOTER</h1>
+            </div>
+    </body>
